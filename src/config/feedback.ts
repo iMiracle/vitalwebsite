@@ -39,6 +39,22 @@ export const CONTACTDATA_RU = [
   { name: "вацап", link: "https://www.whatsapp.com/", icon: BsWhatsapp },
 ];
 
+export const CONTACTDATA_DE = [
+  {
+    name: "E-Mail",
+    link: "mailto:info@example.com",
+    icon: BsEnvelopeAt,
+  },
+  { name: "Facebook", link: "https://facebook.com/airforce", icon: BsFacebook },
+  {
+    name: "Instagram",
+    link: "https://instagram.com/airforce",
+    icon: BsInstagram,
+  },
+  { name: "Twitter", link: "https://twitter.com/airforce", icon: BsTwitterX },
+  { name: "WhatsApp", link: "https://www.whatsapp.com/", icon: BsWhatsapp },
+];
+
 export const CONTACTDATA_AR = [
   {
     name: "البريد الإلكتروني",
@@ -83,5 +99,6 @@ interface FeedbackCollection {
 export const ALL_CONTACTDATA: FeedbackCollection = {
   CONTACTDATA_EN,
   CONTACTDATA_RU,
+  CONTACTDATA_DE,
   CONTACTDATA_AR,
 };

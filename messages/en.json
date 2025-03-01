@@ -9,7 +9,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} ar {🇸🇦 Arabic} other {Unknown}}"
   },
   "Manifest": {
     "name": "lambdaweb",

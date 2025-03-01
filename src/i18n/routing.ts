@@ -2,18 +2,21 @@ import {createNavigation} from 'next-intl/navigation';
 import {defineRouting} from 'next-intl/routing';
 
 export const routing = defineRouting({
-  locales: ['en', 'de'],
+  locales: ['en', 'de', 'ar'],
   defaultLocale: 'en',
+  localeDetection: true,
   localePrefix: 'as-needed',
   pathnames: {
     '/': '/',
     '/product': {
       en: '/product',
-      de: '/produkt'
+      de: '/produkt',
+      ar: '/منتج'
     },
     '/product/[pid]': {
       en: '/product/[pid]',
-      de: '/produkt/[pid]'
+      de: '/produkt/[pid]',
+      ar: '/منتج/[pid]'
     }
   }
 });

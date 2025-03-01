@@ -1,60 +1,59 @@
 {
   "Error": {
-    "description": "Es ist leider ein Problem aufgetreten.Du kannst versuchen diese Seite neu zu laden.",
-    "title": "Etwas ist schief gelaufen!",
-    "gotoHome": "Zur Startseite"
-
+    "description": "Leider ist ein Fehler aufgetreten. Sie können versuchen, die von Ihnen besuchte Seite neu zu laden.",
+    "title": "Etwas ist schiefgelaufen!",
+    "gotoHome": "Startseite"
   },
   "LocaleLayout": {
     "title": "lambdaweb"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 Englisch} ar {🇸🇦 Arabisch} other {Unbekannt}}"
   },
   "Manifest": {
-    "name": "Webseite",
-    "shortName": "web"
+    "name": "lambdaweb",
+    "shortName": "lambda"
   },
   "Navigation": {
     "name": "Luftwaffe",
-    "home": "Start",
-    "product": "Produkt",
-    "about": "Über",
+    "home": "Startseite",
+    "product": "Produkte",
+    "about": "Über uns",
     "contact": "Kontakt"
   },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
-    "gotoHome": "Zur Startseite"
+    "title": "Bitte überprüfen Sie die Browser-Adressleiste oder nutzen Sie die Navigation für eine bekannte Seite.",
+    "description": "Die Seite wurde möglicherweise entfernt oder ist vorübergehend nicht erreichbar. Sie können zurück zur ",
+    "gotoHome": "Startseite"
   },
   "ProductDetailPage": {
-    "model": "productModel",
-    "category": "category",
-    "weight": "weight",
+    "model": "Produktmodell",
+    "category": "Kategorie",
+    "weight": "Gewicht",
     "kg": "kg",
-    "specifications": "productSpecifications",
-    "details": "details"
+    "specifications": "Produktspezifikationen",
+    "details": "Details"
   },
   "Footer": {
     "description": "Urheberrecht"
   },
   "AboutPage": {
-    "description": "This is the about page",
-    "title": "About",
-    "companyTitle": "Über uns",
-    "companyStrengthTitle": "companyStrength",
-    "companySalesTitle": "companySales",
-    "companyIntroduction": "Wir sind ein innovatives Unternehmen, das sich auf die [Branche] spezialisiert hat und sich der Bereitstellung von hochwertigen [Produkten/Leistungen] für Kunden verschrieben hat. Dank unserer jahrelangen Erfahrung und Fachwissen haben wir uns auf dem Markt einen guten Ruf erworben.",
-    "companyStrength":"Wir verfügen über ein hochqualifiziertes Forschungs- und Entwicklungsteam sowie moderne Produktionsanlagen, die es uns ermöglichen, kontinuierlich neue Produkte anzubieten, die der Marktnachfrage entsprechen. Gleichzeitig kontrollieren wir die Produktqualität streng, um sicherzustellen, dass jedes Produkt hohen Standards entspricht.",
-    "companySales": "Unser Vertriebsnetz erstreckt sich über die ganze Welt und wir haben langfristige und stabile Partnerschaften mit vielen Kunden geschlossen. Egal ob auf dem Inlandsmarkt oder dem internationalen Markt, wir sind in der Lage, unseren Kunden qualitativ hochwertige Dienstleistungen anzubieten."
+    "description": "Dies ist die Über-uns-Seite",
+    "title": "Über uns",
+    "companyTitle": "Firmenvorstellung",
+    "companyStrengthTitle": "Unternehmensstärken",
+    "companySalesTitle": "Vertriebsnetzwerk",
+    "companyIntroduction": "Wir sind ein innovatives Unternehmen in der [Branche], das sich auf die Bereitstellung hochwertiger [Produkte/Dienstleistungen] für unsere Kunden spezialisiert hat. Durch langjährige Erfahrung und Fachwissen haben wir uns einen soliden Ruf am Markt erarbeitet.",
+    "companyStrength": "Unser hochqualifiziertes F&E-Team und moderne Produktionsanlagen ermöglichen die kontinuierliche Entwicklung marktgerechter Produkte. Gleichzeitig gewährleisten wir durch strenge Qualitätskontrollen, dass jedes Produkt höchsten Standards entspricht.",
+    "companySales": "Unser globales Vertriebsnetz und langfristige Partnerschaften mit zahlreichen Kunden sichern unseren Erfolg. Ob im Inland oder international - wir bieten durchgängig erstklassige Serviceleistungen."
   },
   "FeedbackPage": {
-    "description": "Wir stehen immer bereit, um Ihnen zu helfen",
+    "description": "Wir stehen Ihnen jederzeit gerne zur Verfügung",
     "title": "Kontaktieren Sie uns"
   },
   "ProductPage": {
     "learnMore": "Mehr erfahren",
-    "title": "Product"
+    "title": "Produkte"
   }
 }
