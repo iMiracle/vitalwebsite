@@ -1,0 +1,59 @@
+{
+  "Error": {
+    "description": "We've unfortunately encountered an error.You can try to reload the page, you were visiting.",
+    "title": "Something went wrong!",
+    "gotoHome": "HomePage"
+  },
+  "LocaleLayout": {
+    "title": "lambdaweb"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Manifest": {
+    "name": "lambdaweb",
+    "shortName": "lambda"
+  },
+  "Navigation": {
+    "name": "AirForce",
+    "home": "Home",
+    "product": "Product",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "description": "The page may have been removed or is temporarily inaccessible. You can return to the ",
+    "gotoHome": "HomePage"
+  },
+  "ProductDetailPage": {
+    "model": "productModel",
+    "category": "category",
+    "weight": "weight",
+    "kg": "kg",
+    "specifications": "productSpecifications",
+    "details": "details"
+  },
+  "Footer": {
+    "description": "Copy Right"
+  },
+  "AboutPage": {
+    "description": "This is the about page",
+    "title": "About",
+    "companyTitle": "CompanyIntroduction",
+    "companyStrengthTitle": "companyStrength",
+    "companySalesTitle": "companySales",
+    "companyIntroduction": "We are an innovative company focused on [industry], committed to providing high-quality [products/services] to our clients. With years of experience and expertise, we have established a solid reputation in the market.",
+    "companyStrength": "We have a high-quality R&D team and advanced production equipment, enabling us to continuously launch new products that meet market demand. At the same time, we strictly control product quality to ensure that each product meets high standards.",
+    "companySales": "Our sales network spans the globe, and we have established long-term stable partnerships with numerous clients. Whether it is in the domestic or international market, we are able to provide high-quality services to our customers."
+  },
+  "FeedbackPage": {
+    "description": "We are always ready to help you",
+    "title": "Contact US"
+  },
+  "ProductPage": {
+    "learnMore": "Learn More",
+    "title": "Product"
+  }
+}

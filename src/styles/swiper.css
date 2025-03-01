@@ -1,0 +1,41 @@
+/* 指示器样式 */
+.swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 导航按钮样式 */
+.swiper-button-next, .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.5);
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.ThumbsSwiper .swiper-slide-thumb-active {
+  opacity: 1 !important;
+  border: 2px solid #000; /* 添加黑色边框 */
+}
+
+.ThumbsSwiper .swiper-slide {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+.thumbImage {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+:root {
+  --swiper-navigation-size: 16px;
+}
